@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+/* Dark Carbon */
+/* By Brandon */
+
+A:link {
+	text-decoration:none;
+	color:#DDDDDD;
+	font-size:15px inherit;
+}
+
+A:visited {
+	text-decoration:none;
+	color:#DDDDDD;
+	font-size:15px inherit;
+}
+
+A:active {
+	text-decoration:none;
+	color:#DDDDDD;
+	font-size:15px inherit;
+}
+
+A:hover {
+	text-decoration:none;
+	color:#CCCCCC;
+	font-size:16px inherit;
+}
+
+form{
+	padding:0px;
+	margin:0px;
+}
+
+.formElement{
+	display:block;
+	position:static;
+	padding:5px;
+}
+
+input{
+	color:#FFFFFF;
+	text-align:center;
+	background:#333;
+	padding:2px;
+	border: 1px solid #575757;
+}
+
+textarea{
+	width:95%;
+	height:100px;
+	text-align:center;
+	background-color:#333;
+	color:#CCC;
+	border: 1px solid #575757;
+	resize:none;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+body{
+	font-family:Verdana;
+	font-size:16px;
+	
+	text-align:center;
+	
+	color:#C2C2C2;
+	background-color:#363636;
+	background-image:url(images/background.png);
+	background-repeat:repeat;
+	background-position:top;
+}
+
+#bodyContainer{
+	background-color:#363636;
+	margin-left: auto;
+    margin-right: auto;
+	
+	margin-top:5%;
+	margin-bottom:5%;
+	text-align:center;
+	min-width: 600px;
+	max-width: 1000px;
+	/* Automatic adjusting container depending on client address. */
+	width:expression(document.body.clientWidth < 600 ? "600px" : (document.body.clientWidth > 1000 ? "1000px" : "auto"));
+}
+
+#header{
+	padding:10px;
+	color:#1A1A1A;
+	background-image:url(images/header.png);
+	height:150px;
+	text-align:left;
+	margin-bottom:10px;
+	
+	background-color:#333;
+	border:1px solid #575757;
+	background-repeat:no-repeat;
+	background-position:center; 
+}
+
+#headerLeft{
+	float:left;
+	display:block;
+}
+
+#headerRight{
+	float:right;
+	display:block;
+}
+
+#headerMenu{
+	color:#969696;
+	display:block;
+	margin-top:135px;
+	text-align:center;
+}
+
+#pluginContainer{
+	background-color:#2A2A2B;
+	border-color:#666;
+	border-style:solid;
+	border-width:1px;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+
+#pluginTitle{
+	color:#FFF;
+	padding:10px;
+	font-size:20px;
+	letter-spacing:2px;
+	border-bottom-color:#666;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	background-color:#303030;
+	background-image:url(images/bar.png);
+	background-repeat:no-repeat;
+	background-position:center; 
+}
+
+#pluginContent{
+	padding:20px
+}
+
+#footer{
+	color:#FFF;
+	padding:10px;
+	font-size:10px;
+	letter-spacing:2px;
+	height:30px;
+	border-color:#666;
+	border-style:solid;
+	border-width:1px;
+	
+	clear:both;
+	background-color:#303030;
+	background-image:url(images/bar.png);
+	background-repeat:no-repeat;
+	background-position:center; 
+}
+
+#footerCopyRight{
+	font-size:12px;
+}
+
+#footerPluginInfo{
+	font-size:14px;
+}
+
+/* Panel Plugin CSS */
+
+#PanelContainer{
+    overflow: hidden;
+	padding-left:auto;
+	padding-right:auto;
+}
+
+
+/* Posts Plugin CSS */
+
+.PostsContainer{
+	border-color:#666;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:5px;
+}
+
+.PostsTitle{
+	color:#EBEBEB;
+	font-size:20px relative;
+	letter-spacing:2px;
+	
+	padding-top:2px;
+	padding-left:2px;
+	padding-right:2px;
+	
+	height:20px;
+	
+	border-bottom-color:#666;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	
+	background-color:#303030;
+	background-image:url(images/smallbar.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.PostsContent{
+	color:#EBEBEB;
+	padding:10px;
+}
+
+.singleTitle{
+	color:#EBEBEB;
+	font-size:20px relative;
+	letter-spacing:2px;
+	
+	padding:2px;
+	height:20px;
+	
+	border-color:#666;
+	border-style:solid;
+	border-width:1px;
+	
+	background-color:#303030;
+	background-image:url(images/smallbar.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin-top:5px;
+}
+
+/* Notification Bar */
+.notificationBar{
+	color:#EBEBEB;
+	font-size:20px relative;
+	letter-spacing:2px;
+	
+	padding:2px;
+	height:20px;
+	width: 100%;
+	border-color:#666;
+	border-style:solid;
+	border-width:1px;
+	
+	background-color:#303030;
+	background-image:url(images/smallbar.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin-top:5px;
+}
+
+/* Backend Plugin CSS */
+
+#BackendContainer{
+	position:relative;
+}
+
+/* Elected Official Plugin CSS */
+
+.leftTitle{
+	display: inline;
+	float:left;
+	margin-top:2px;
+	margin-left:2px;
+	text-align:left;
+}
+
+.rightTitle{
+	display: inline;
+	float:right;
+	margin-top:2px;
+	margin-right:2px;
+	text-align:right;
+}
+
+.centerTitle{
+	display: inline;
+	margin:0 auto;
+	margin-top:2px;
+	text-align:center;
+	width:60%;
+}
+
+.qFAQ{
+	display:block;
+}
+
+.aFAQ{
+	display:block;
+}
+
+.singleLine{
+	display:block;
+	margin:5px;
+}
+/* Login/Register Plugin CSS */
+#formContainer{	
+}

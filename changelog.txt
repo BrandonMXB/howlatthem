@@ -1,0 +1,41 @@
+Howl At Them Politician Tracker
+By BrandonMXB
+
+* 2/15/13
+-Update log is reinstituted.
+-Current page now shows as bolded number at bottom
+
+* 2/16/13
+-Changed filter to be GET instead of SESSION var. :D
+-Changed filter from radio buttons POST form to GET links 
+-Published forum to public
+
+* 2/19/13
+-Combined the search page, all results page, etc. (Really, really, really good!)
+-Combining includes a single base query that is adding to depending on requests, very flexible
+-Changed version to 0.6 Beta.
+-Many other tweaks and updates
+
+* 2/21/13
+-Set officials per page to 20
+-Fixed page number not being bolded
+-Many other tweaks and updates
+-More to come
+
+* 3/8/13
+-Added new state field for state filtering, using span and class
+-Changed HCR-25 to HJR-94 on Home plugin
+-Other stuff
+
+* 3/13/13
+-Renamed statuses to Supportive, Moderate, Unsupportive
+-Replaced # in About plugin with Joey's contact email
+-Minor changes
+
+* 3/14/13
+-Finalized API, ready for people to fully pull data (API.php?s=IN)
+
+* 3/15/13
+-Added the state get var to the bottom of pagenation links
+-Added (Ex. TX) to state field text
+-Renamed 'Change Official' text field to 'Update'
